@@ -1,0 +1,42 @@
+/* Parent Container styling for Flexbox layout */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 10px;
+}
+
+.game-container{
+    border: 3px solid #333;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    display: inline-block; /* To fit the container to its content */
+}
+
+#gameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Horizontally center items */
+    align-items: center;     /* Vertically center items */
+               /* Spacing between items */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
